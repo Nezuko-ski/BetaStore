@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BetaStore</name>
+    </assembly>
+    <members>
+        <member name="T:BetaStore.Controllers.AuthController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BetaStore.Controllers.AuthController.#ctor(BetaStore.Core.Interfaces.IAuthService)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:BetaStore.Controllers.AuthController.Register(BetaStore.Core.DTOs.CreateCustomerDTO)">
+            <summary>
+            Create a new customer
+            </summary>
+            <param name="dTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.AuthController.GetAllCustomers">
+            <summary>
+            Get All Customers
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.AuthController.GetCustomerById(System.String)">
+            <summary>
+            Get Customer By Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.AuthController.GetCustomerByName(System.String)">
+            <summary>
+            Get Customer By Name
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BetaStore.Controllers.DiscountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BetaStore.Controllers.DiscountController.#ctor(BetaStore.Core.Interfaces.IDiscountService)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:BetaStore.Controllers.DiscountController.AddDiscountType(BetaStore.Core.DTOs.DiscountResponseDTO)">
+            <summary>
+            Adds new Discount type
+            </summary>
+            <param name="dTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.DiscountController.GetAllDiscounts">
+            <summary>
+            Gets a list of all discounts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.DiscountController.GetDiscountType(System.String)">
+            <summary>
+            Gets specific discount percentage by Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BetaStore.Controllers.DiscountController.GetDiscountTypeByName(System.String)">
+            <summary>
+            Gets specific discount percentage by Name
+            </summary>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BetaStore.Controllers.InvoiceController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BetaStore.Controllers.InvoiceController.#ctor(BetaStore.Core.Interfaces.IInvoiceService)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:BetaStore.Controllers.InvoiceController.GenerateInvoiceAmount(BetaStore.Core.DTOs.InvoiceRequestDTO)">
+            <summary>
+            Gets total invoice amount given a bill
+            </summary>
+            <param name="dTO"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
